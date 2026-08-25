@@ -21,10 +21,10 @@ export function Header({ onAddClass, totalClasses, activeAlarms }: HeaderProps) 
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
               <Calendar className="h-5 w-5" />
             </div>
-            Class Routine
+            Hostel Management
           </h1>
           <p className="mt-1 text-muted-foreground">
-            Manage your weekly class schedule
+            Way to a better hostel
           </p>
         </div>
 
