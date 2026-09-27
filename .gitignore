@@ -1,24 +1,31 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependencies
+node_modules/
 
-node_modules
-dist
-dist-ssr
+# Build output
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
+# Environment
+.env
+.env.local
+backend/.env
+
+# Backend data
+backend/data/
+*.db
+*.db-journal
+
+# Logs & caches
+logs/
+*.log
+npm-debug.log*
+.eslintcache
+.vite/
+test-results/
+
+# Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
